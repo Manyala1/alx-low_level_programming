@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/**prints content within quotations
- */
+/**main: entry point of the code
+ *
+ * prints content within quotations
+*/
 int main(void)
 {
        printf("with proper grammar, but the outcome is a piece of art,\n");
