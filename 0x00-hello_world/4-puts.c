@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 /**
- * main: entry point
+ * main
  *
- *Prints the message "Programming is like building a
- * multilingual puzzle" followed by a new line.
+ * prints line in quotation
  *
- * Return: Always 0 
+ * return 0
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
+	puts(""Programming is like building a multilingual puzzle\n");
 	return (0);
 }
-
