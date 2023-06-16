@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-/**main entry of the code 
- */
- /*prints size of various types of data types and their sizes
-  */
- /* return: 0
+/**
+ * main - Entry point of the program
+ *
+ * This function prints the size of various data types
+ *
+ * Return: 0 on success
  */
 int main(void)
 {
