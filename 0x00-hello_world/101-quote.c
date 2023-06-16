@@ -2,14 +2,14 @@
 #include <unistd.h>
 
 /**
- * main - entry of the program
+ * main - entry point of the code
  *
- * program prints the last part of the line, followed by new line after the standard error
+ * Program prints the last part of the line, followed by a new line after the standard error
  *
- * rturn: 1 when succcess
+ * Return: 1 when successful
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 58);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
