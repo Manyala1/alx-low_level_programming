@@ -4,11 +4,11 @@
 
 
 /**
- * main - entry point
+ * main - Entry point
  *
  * print value of n satus; zero, positive or negative
  *
- * return: 0 when Successful
+ * Return: Always 0 when Successful
 */
 
 int main(void)
@@ -20,11 +20,11 @@ int main(void)
 
 	/my code/
 	if (n > 0)
-		printf("%i is positive\n", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%i is zero\n", n);
+		printf("%d is zero\n", n);
 	else
-		printf("%i is negative\n", n);
+		printf("%d is negative\n", n);
 
 	return (0);
 }
