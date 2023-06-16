@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main: entry of the code
+ * main - Entry point of the code
  *
- *description: prints line in quotation
+ * This function prints the text in the quotation marks
  *
- * return: 0
+ * Return: 0 on success
  */
 int main(void)
 {
