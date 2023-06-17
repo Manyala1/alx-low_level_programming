@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	int i = 48; /48; decimal rep of 0/
+	int i = 48; 
 
-	while (i <= 102) /102; decimal rep of f/
+	while (i <= 102)
 	{
 		putchar(i);
 
