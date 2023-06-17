@@ -8,9 +8,12 @@
  *
  * Return: Always 0 (Success)
 */
+int myFunction(void){
+	return (0);
+}
 int main(void)
 {
-	int n;
+	int n = (int)myFunction; 
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
