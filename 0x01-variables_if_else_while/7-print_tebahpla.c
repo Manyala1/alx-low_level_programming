@@ -5,7 +5,7 @@
  *
  * description: prints lowercase alphabets in reverse
  *
- * return: always 0 when succesfull
+ * return: always 0 (success)
  */
 int main(void)
 {
