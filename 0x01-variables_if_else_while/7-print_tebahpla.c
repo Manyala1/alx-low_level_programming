@@ -3,13 +3,14 @@
 /**
  * main - entry of the program
  *
- * prints lowercase alphabets in reverse
+ * description: prints lowercase alphabets in reverse
  *
  * return: 0 when succesfull
  */
 int main(void)
 {
 	char ch = 'z';
+
 	while (ch >= 'a')
 	{
 		putchar(ch);
