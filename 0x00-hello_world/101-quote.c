@@ -5,7 +5,7 @@
  *
  * prints text in quotation
  *
- * returns: 0 (success)
+ * returns: always 1 (error)
  */
 int main(void)
 {
