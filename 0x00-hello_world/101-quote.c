@@ -1,11 +1,11 @@
 #include <unistd.h>
 
 /**
- * main - entry point of the program
+ * main - Entry point
  *
- * prints text in quotation
+ * Description: Prints a specific message to the standard error
  *
- * returns: always 1 (error)
+ * Return: Always 1 (Error)
  */
 int main(void)
 {
