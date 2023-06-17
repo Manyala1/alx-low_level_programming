@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry of the program
+ * main - entry point of the program
  *
  * description: prints lowercase alphabets in reverse
  *
- * return: 0 when succesfull
+ * return: always 0 when succesfull
  */
 int main(void)
 {
