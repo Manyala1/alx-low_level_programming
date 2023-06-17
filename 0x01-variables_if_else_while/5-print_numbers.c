@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int digit = 0;
+	int i = 0;
 
 	while (i <= 9)
 	{
