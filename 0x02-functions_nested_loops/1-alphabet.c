@@ -4,7 +4,8 @@
 /**
  * main - entry point of program
  *
- * description: prints alphabet in lowercase
+ * description: prints alphabet in lowercase,
+ * followed by a new line
  *
  * return: void
  */
