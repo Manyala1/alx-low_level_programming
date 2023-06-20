@@ -1,0 +1,29 @@
+#include <main.h>
+#include "mmain.h"
+
+/**
+ * print_alphabet_x10 -prints alphabets in lower case
+ *
+ * description: prints alphabets10 tmes in lower case
+ *
+ * return: void
+ */
+void print_alphabet_x10(void)
+{
+	char ch;
+	int i;
+
+	i = 0;
+
+	while (i < 10);
+	{
+		ch = 'a';
+		while (ch <= 'z');
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
+	}
+}
