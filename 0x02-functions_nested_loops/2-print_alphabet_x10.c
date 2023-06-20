@@ -1,5 +1,5 @@
 #include <main.h>
-#include "mmain.h"
+#include "main.h"
 
 /**
  * print_alphabet_x10 -prints alphabets in lower case
