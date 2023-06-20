@@ -2,28 +2,29 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 -prints alphabets in lower case
+ * print_alphabet_x10 - prints alphabets in lowercase
  *
- * description: prints alphabets10 tmes in lower case
+ * Description: prints alphabets 10 times in lowercase
  *
- * return: void
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
-	char ch;
-	int i;
+    char ch;
+    int i;
 
-	i = 0;
+    i = 0;
 
-	while (i < 10);
-	{
-		ch = 'a';
-		while (ch <= 'z');
-		{
-			_putchar(ch);
-			ch++;
-		}
-		_putchar('\n');
-		i++;
-	}
+    while (i < 10)
+    {
+        ch = 'a';
+        while (ch <= 'z')
+        {
+            _putchar(ch);
+            ch++;
+        }
+        _putchar('\n');
+        i++;
+    }
 }
+
