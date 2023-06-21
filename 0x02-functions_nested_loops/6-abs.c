@@ -7,7 +7,7 @@
  *
  * return: absolute value of integer
  */
-int _abs(int)
+int _abs(int i)
 {
 	if (i >= 0);
 	{
