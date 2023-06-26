@@ -5,7 +5,7 @@
  * swap_int - take in two variables integers and swap them
  *
  * @a: swaps and stores address of b
- * @b swaps and tores address of a
+ * @b: swaps and tores address of a
  *
  * Return: 0 always
  */
