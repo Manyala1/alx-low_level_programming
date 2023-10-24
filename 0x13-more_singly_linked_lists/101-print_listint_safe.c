@@ -3,29 +3,58 @@
 #include <stdlib.h>
 
 /**
- * print_listint_safe - prints a linked list
- * @head: pointer head
+ * *_r - reallocates memory for an array of pointers to nodes
+ * @list: old list to append
+ * @size: size of new list
+ * @new: new node to add to the list
  *
- * Return: number of nodes in a list
+ * Return: pointer to the new list
+ */
+const listint_t *_r(const listint_t *list, size_t size, const listint_t *new)
+{
+	const listint_t **newlist;
+	size_t i;
+
+	newlist = malloc(size * sizeof(listint_t *));
+	if (newlist == NULL)
+	{
+		free(list);
+		exit(98);
+	}
+	for (i = 0; i < size - 1; i++)
+		newlist[i] = list[i];
+	newlist[i] = new;
+	free(list);
+	return (newlist);
+}
+/**
+ * print_listint_safe - prints a linked list
+ * @head: pointer to te first node
+ *
+ * Return: number of nodes in the list
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	size_t count = 0;
-	listint_t *node = head;
+	size_t i;
+	size_t num = 0;
+	const listint_t **list = NULL;
 
-	while (node != NULL)
+	while (head != NULL)
 	{
-
-		if (node < head)
+		for (i = 0; i < num; i++)
 		{
-			printf("Loop detected in linked list at node %p\n", (void *)node);
-			exit(98);
+			if (head == list[i])
+			{
+				printf("-> [%p] %d\n", (void *)head, head->n);
+				free(list);
+				return (num);
+			}
 		}
-
-		printf("%d\n", node->n);
-		node = node->next;
-		count++;
+		num++;
+		list *_r(list, num, head);
+		printf("[%p] %d\n", (void *)head, head->n);
+		head = head->next;
 	}
-
-	return (count);
+	free(list);
+	return (num);
 }
